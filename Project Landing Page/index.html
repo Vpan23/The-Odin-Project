@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Odin Project: Land Page</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Importe de fuentes Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;700&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Creacion del nabvar de nuestra Landpage -->
+    <navbar class="navbar" id="navbar">
+      <div class="logo__container">
+        <h2>Header Logo</h2>
+      </div>
+
+      <ul class="list__container">
+        <li><a href="#">header link one</a></li>
+        <li><a href="#">header link two</a></li>
+        <li><a href="#">header link three</a></li>
+      </ul>
+    </navbar>
+
+    <!-- Header represents the contain beside the navbar -->
+    <header class="header">
+      <div class="text__content">
+        <h1 class="title__header">This website is awesome</h1>
+        <p class="pargh__header">
+          This website has some subtext that goes here under the main title.
+          It`s a smaller font and the color is lower contrast
+        </p>
+
+        <button class="button">Sign up</button>
+      </div>
+
+      <div class="img__content">
+        <p>this is a place for an image</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Primera parte del contenedor -->
+      <section class="information__section">
+        <h2>Some random information.</h2>
+
+        <!-- Imagenes en rows -->
+        <div class="imgRows">
+          <div class="illustration__content">
+            <div class="img__content"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="illustration__content">
+            <div class="img__content"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="illustration__content">
+            <div class="img__content"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+          <div class="illustration__content">
+            <div class="img__content"></div>
+            <p>this is some subtext under an illustration or image</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Segunda parte del contenedor -->
+      <section class="quote__section">
+        <div class="quote__content">
+          <h3>
+            This is an inspiring quote, or a testimonial from a customer. Maybe
+            it`s just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+          </h3>
+          <p class="author"><strong>-Thor, God of Thunder</strong></p>
+        </div>
+      </section>
+
+      <section class="signup__section">
+        <div class="signup__content">
+          <div class="side__text">
+            <h3>Call to action! It`s time!</h3>
+            <p>
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
+
+          <div class="side__button">
+            <button class="button">Sign up</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer__section">
+      <p>Copyright &copy; The Odin Project 2021</p>
+    </footer>
+  </body>
+</html>
